@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y \
 RUN pip install --upgrade pip setuptools wheel
 
 # Install Scrapy and Scrapyd
-RUN pip install scrapy scrapyd scrapyd-client
+RUN pip install scrapy==2.11.2 scrapyd==1.5.0 scrapyd-client==1.2.3
 
 # Copy custom scrapyd.conf file to the container
 COPY scrapyd.conf /etc/scrapyd/scrapyd.conf
