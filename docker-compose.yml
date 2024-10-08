@@ -4,7 +4,7 @@ services:
     build: .
     ports:
       - "6800:6800"
-     volumes:
+    volumes:
       # Map eggs, logs, and db directories to host directories for persistence
       - ./scrapyd/eggs:/var/lib/scrapyd/eggs
       - ./scrapyd/logs:/var/log/scrapyd
