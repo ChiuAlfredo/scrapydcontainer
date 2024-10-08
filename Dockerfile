@@ -32,4 +32,4 @@ RUN mkdir -p /var/lib/scrapyd/eggs /var/log/scrapyd /var/lib/scrapyd/dbs
 EXPOSE 6800
 
 # Start Scrapyd service
-CMD ["scrapyd", "--config", "/etc/scrapyd/scrapyd.conf"]
+CMD ["scrapyd"]
