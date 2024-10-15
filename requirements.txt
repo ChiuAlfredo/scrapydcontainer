@@ -1,6 +1,8 @@
-scrapy
 requests
 beautifulsoup4
 tqdm
 pandas
 pymssql
+scrapy==2.11.2
+scrapyd==1.5.0 
+scrapyd-client==1.2.3
