@@ -1,0 +1,6 @@
+scrapy
+requests
+beautifulsoup4
+tqdm
+pandas
+pymssql
