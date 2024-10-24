@@ -6,3 +6,4 @@ pymssql
 scrapy==2.11.2
 scrapyd==1.5.0 
 scrapyd-client==1.2.3
+sqlalchemy==2.0.36
