@@ -1,8 +1,8 @@
-requests
-beautifulsoup4
-tqdm
-pandas
-pymssql
+requests==2.32.3
+beautifulsoup4==4.12.3
+tqdm==4.66.5
+pandas==2.2.2
+pymssql==2.3.1
 scrapy==2.11.2
 scrapyd==1.5.0 
 scrapyd-client==1.2.3
