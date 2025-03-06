@@ -11,3 +11,4 @@ pyodbc==4.0.35
 joblib==1.4.2
 httpx==0.27.2
 httpx[http2]
+dotenv
